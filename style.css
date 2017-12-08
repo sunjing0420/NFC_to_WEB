@@ -1,0 +1,48 @@
+ @font-face { font-family: Poem; src: url('SplendidB.ttf'); }
+
+
+#poetry-content{
+  position: absolute;
+  /*z-index: 999;*/
+ /*position: relative;
+ display:block;
+ text-align: center;
+ padding:0;
+ margin:0 auto;*/
+ 
+}
+
+#poems{
+
+/*background-color: rgba(255, 255, 255, 0.7);*/
+}
+
+
+.title{
+    z-index: 999;
+    font-family: Poem;
+    font-size: 2em;
+    font-weight: bold;
+    display:block;
+    text-align:center;
+  }  
+
+.sentences{
+	z-index: 999;
+	font-family: Poem;
+	font-size: 1.5em;
+	display:block;
+    text-align:right;
+    
+}
+
+div.line {  
+    position:absolute;  
+    z-index:-1;  
+    width:2px;  
+    height:2px;  
+    font-size:1px;  
+    background-color:rgb(200,200,200);  
+    /*overflow:hidden;  */
+} 
+
